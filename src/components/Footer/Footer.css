@@ -1,0 +1,38 @@
+.app__footer {
+    display: flex;
+    
+}
+
+.brand {
+    width: 30%;
+    background-color: var(--color-primary);
+    padding: 5em;
+}
+
+.brand h1 {
+    color: black;
+    margin: 0;
+    text-align: center;
+}
+
+.brand-links {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.footer-links {
+    background-color: var(--color-secondary);
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5em;
+}
+
+.app__footer ul {
+    padding: 0;
+}
+
+.footer-links li {
+    padding-bottom: 1em;
+}

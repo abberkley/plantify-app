@@ -4,7 +4,7 @@ import './TileGrid.css';
 import {images} from '../../constants';
 
 const TileGrid = () => (
-  <div className='app__tileGrid'>
+  <div className='app__tile-grid'>
     <img src={images.plantparent} alt="Grid of plant saplings" className="parent-plant" />
     <div className="plant-parent--content text-on-dark">
       <h3>New Plant Parent?</h3>

@@ -1,0 +1,13 @@
+.app__mission h3, .app__mission p {
+    text-align: center;
+}
+
+.app__mission {
+    width: 60%;
+    margin: 10em auto;
+}
+
+.app__mission h3 {
+    width: 80%;
+    margin: 0 auto;
+}

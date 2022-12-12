@@ -1,0 +1,29 @@
+.app__tile-grid {
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.app__tile-grid h3 {
+    color: white;
+}
+
+.parent-plant, .plant-parent--content, .plant-tools--content, .plant-tools {
+    width: 50%;
+}
+
+.plant-parent--content {
+    background-color: var(--color-primary);
+}
+
+.plant-tools--content {
+    background-color: var(--color-secondary);
+}
+
+.plant-parent--content, .plant-tools--content {
+    box-sizing: border-box;
+    padding: 8em;
+}
+
+.app__tile-grid button {
+    margin: 3rem 0 0 0;
+}

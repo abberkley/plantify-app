@@ -1,0 +1,25 @@
+.app__member {
+    background-image: url(../../assets/plant-family.jpg);
+    background-repeat: none;
+}
+
+.member--content {
+    right: 0%;
+    width: 35%;
+    background-color: var(--color-transparent-green);
+    padding: 3em 7em 7em;
+}
+
+.member--content h3 {
+    color: white;
+}
+
+.member--content p:last-of-type {
+    margin-bottom: 1.5em;
+}
+
+.tertiary-btn {
+    margin-top: 10em;
+    border: 4px solid white;
+    padding: .5em;
+}

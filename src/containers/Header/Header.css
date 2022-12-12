@@ -1,0 +1,36 @@
+.app__header {
+    display: flex;
+    margin: 1.8em 0em 1.8em 2em;
+    align-items: center;
+    position: relative;
+}
+
+.app__header img {
+    z-index: -1;
+    float: right;
+    margin-left: 20rem;
+    overflow-x: hidden; 
+    width: 80%;
+    height: 100%;
+}
+
+.header-copy {
+    background-color: var(--color-transparent-white);
+    width: 30%;
+    z-index: 2;
+    position: absolute;
+    padding: 2.8em;
+    margin-left: 12em;
+}
+
+.header-buttons {
+    display: flex;
+}
+
+.header-copy .primary-btn {
+    margin-left: 0;
+}
+
+@media  screen and (max-width: 950px) {
+
+ }

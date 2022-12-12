@@ -1,0 +1,20 @@
+.plant-category {
+    position: relative;
+    min-width: 330px;
+}
+
+.plant-category img {
+    display: inline;
+    width: 100%;
+}
+
+.plant-category h4 {
+    width: 100%;
+    background-color: var(--color-transparent-white);
+    padding-top: 1em;
+    padding-bottom:1em;
+    position: absolute;
+    z-index: 3;
+    bottom: 0;
+    margin: 0;
+}

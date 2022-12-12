@@ -1,6 +1,116 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@500;600&family=Righteous&display=swap');
 
---root {
+:root {
     --color-logo: #436B10;
-;
+    --color-primary-btn: #273A0E;
+    --color-primary: #8E9D91;
+    --color-secondary: #795D4F;
+    --color-transparent-white:  rgba(255, 255, 255, 0.9);
+    --color-transparent-green:  rgba(142, 157, 145, 0.9);
+}
+
+body {
+    font-family: 'Lato';
+    font-size: 62.5%;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Righteous';
+    font-weight: 400;
+    font-size: 3.6em;
+    line-height: 2.5em;
+    text-transform: capitalize;
+    color: var(--color-logo);
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 4.5em;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    color: var(--color-primary);
+}
+
+h3 {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 3.5em;
+    line-height: 1em;
+    text-transform: uppercase;
+    color: black;
+}
+
+h4 {
+    font-weight: 500;
+    font-size: 2.4em;
+    line-height: 1em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h5 {
+    font-weight: 500;
+    font-size: 2.1em;
+    line-height: 1em;
+    text-transform: uppercase;
+}
+
+p {
+    font-weight: 400;
+    font-size: 1.6em;
+    line-height: 1.2em;  
+}
+
+a, button{
+    font-weight: 500;
+    font-size: 1.6em;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    border: none;
+    padding: 1.2em 2.2em;
+    margin: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.text-on-dark, .text-on-dark a {
+    color:white;
+}
+
+.primary-btn {
+    background-color: var(--color-primary-btn);
+    color: white;
+}
+
+.secondary-btn {
+    background-color: white;
+    color: var(--color-logo);
+}
+
+img {
+    max-width: 100%;;
+}
+
+@media  screen and (max-width: 950px) {
+   body {
+    width: 950px;
+    font-size: 50%;
+    margin: 0 auto;
+   } 
+
+   h2 {
+    font-size: 3.5em;
+    line-height: 1em;
+   }
 }
